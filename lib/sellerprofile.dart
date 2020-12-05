@@ -131,27 +131,9 @@ class _ProfileState extends State<Profile> {
                       fontSize: 20),
                 ),
               ),
-              Padding(
-                  padding: EdgeInsets.all(20.0),
-                  child: Column(
-                    children: [
-                      Text(
-                        "Pricing",
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 22),
-                      ),
-                      SizedBox(
-                        height: 5.0,
-                      ),
-                      Text(
-                        "100\$- 120\$",
-                        style: TextStyle(color: Colors.white, fontSize: 18),
-                      ),
-                    ],
-                  )),
-
+              SizedBox(
+                height: 50,
+              ),
               Center(
                 child: MaterialButton(
                   height: 50,

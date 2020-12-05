@@ -338,8 +338,8 @@ class _RegisterState extends State<Register> {
                           ),
                           Radio(
                             activeColor: textcolor,
-                            value: 2,
-                            groupValue: selectedRadio,
+                            value: 1,
+                            groupValue: 1,
                             onChanged: (val) {
                               print("Radio $val");
                               setSelectedRadio(val);

@@ -1,5 +1,6 @@
 import 'dart:ui';
 
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:sellerapp/register.dart';
 
@@ -196,12 +197,12 @@ class _CustomerRequestState extends State<CustomerRequest> {
                     ),
                     Padding(
                       padding: EdgeInsets.all(0.0),
-                      child: Text(
-                        "Makeup",
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.w300,
-                            fontSize: 20),
+                      child: ConstrainedBox(
+                        constraints: BoxConstraints(),
+                        child: AutoSizeText(
+                          "Bridal Makeup with out Lashes",
+                          style: TextStyle(fontSize: 17.0, color: Colors.white),
+                        ),
                       ),
                     ),
                   ],

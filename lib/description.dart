@@ -70,38 +70,6 @@ class _DescriptionState extends State<Description> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                "Give your service pricing",
-                style: TextStyle(
-                    color: textcolor,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 24),
-              ),
-              Container(
-                  margin: EdgeInsets.all(20.0),
-                  decoration:
-                      BoxDecoration(border: Border.all(color: textcolor)),
-                  child: TextFormField(
-                    textAlign: TextAlign.center,
-                    decoration: new InputDecoration(
-                      focusedBorder: UnderlineInputBorder(
-                          borderSide: BorderSide(color: textcolor)),
-                      hintText: "100\$ - 120\$",
-                      hintStyle: TextStyle(
-                          color: textcolor, fontWeight: FontWeight.bold),
-                    ),
-                    keyboardType: TextInputType.multiline,
-                    minLines: 1,
-                    maxLines: 15,
-                    style: new TextStyle(
-                      color: textcolor,
-                      fontSize: 18,
-                      fontFamily: "Poppins",
-                    ),
-                  )),
-              SizedBox(
-                height: 40,
-              ),
-              Text(
                 "Add Description for your profile",
                 style: TextStyle(
                     color: textcolor,
